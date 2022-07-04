@@ -34,7 +34,7 @@ export default class App extends React.Component {
 ```
 
 ### Sample link
-Link is here https://dribbble.com/shots/14724532-Customer-Registration-System/attachments/6425487?mode=media
+Link is here https://papaya-truffle-e08667.netlify.app
 
 
 
