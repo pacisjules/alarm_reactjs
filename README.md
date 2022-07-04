@@ -2,7 +2,8 @@
 The best overall security system : Vivint. Best overall. Vivint security
 
 ### Sample image
-![LightMode](https://user-images.githubusercontent.com/51479761/177199841-3e23efd5-6b41-456e-83bf-2ecdb3ffab7b.PNG)
+![cv](https://user-images.githubusercontent.com/51479761/177211030-ca0d08ca-605f-4015-8fd9-970fbb0fb171.PNG)
+
 
 ### Sample Codes
 
