@@ -6,6 +6,7 @@ The best overall security system : Vivint. Best overall. Vivint security
 
 ### Sample Codes
 
+``` javascript
 import React from "react";
 import "./App.css";
 import Mainstream from "./components/Mainstream.jsx";
@@ -29,6 +30,8 @@ export default class App extends React.Component {
     );
   }
 }
+
+```
 
 
 
