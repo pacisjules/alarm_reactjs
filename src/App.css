@@ -23,18 +23,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: isahainyuma 5s ease-in-out infinite;
 }
 
 
 .container .akazu button{
-  width: 80px;
-  height: 30px;
+  width: 140px;
+  height: 50px;
   background-color: #000224;
   color: aliceblue;
   border: none;
   outline: none;
   cursor: pointer;
   transition: all ease-in-out 0.3s;
+  padding: 10px;
+  border-radius: 5px;
 }
 .container .akazu button:hover{
   background-color: #0067c8;
@@ -45,18 +48,65 @@
   font-size: 45pt;
   margin-top: 30px;
   transition: all ease-in-out 0.3s;
+  background-color: #000224;
+  color: #96ccff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 500px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.container .akazu .messeger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .container .akazu .messeger p{
   font-family: 'Arima', cursive;
-  font-size: 45pt;
-  margin-top: 30px;
+  font-size: 15pt;
+  margin-top: 10px;
   animation-name: ezra;
   animation: ezra 1s infinite;
+}
+
+
+.container .akazu .messeger input{
+  width: 60px;
+  height: 40px;
+  background-color: #000224;
+  color: aliceblue;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  border: 2px solid #96ccff;
 }
 
 @keyframes ezra {
   0%   {opacity: 0;}
   100% {opacity: 1;}
+  }
+
+
+  @keyframes isaha {
+    0%   {color: #eb3434;}
+    25%   {color: #eb34c6;}
+    50%   {color: #7d34eb;}
+    75%   {color: #34eb6e;}
+    100% {color: #eb3434;}
+  }
+
+
+  @keyframes isahainyuma {
+    0%   {box-shadow: 0px 0px 50px #eb3434;}
+    25%   {box-shadow: 0px 0px 30px #eb34c6;}
+    50%   {box-shadow: 0px 0px 30px #7d34eb;}
+    75%   {box-shadow: 0px 0px 30px #34eb6e;}
+    100% {box-shadow: 0px 0px 60px #eb3434;}
   }
